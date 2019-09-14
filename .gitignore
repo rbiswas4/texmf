@@ -6,6 +6,7 @@
 *.fls
 *.out
 *.toc
+.ipynb_checkpoints/*
 
 ## Intermediate documents:
 *.dvi
