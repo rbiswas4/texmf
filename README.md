@@ -2,7 +2,7 @@
 
 This is a project template for writing documents in latex. It contains a small number of useful macros in `doc/latex/macros`. The `Makefile` integrates the use of (`adstex`](https://pypi.org/project/adstex/) by Y.Y. Mao.
 
-### version : 0.0.3
+### version : 0.0.4
 
 ## Installation
 
