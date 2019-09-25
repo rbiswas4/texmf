@@ -3,7 +3,7 @@
 This is a project template for writing documents in latex, mostly for astronomy purposes. It contains a small number of useful macros in `doc/latex/macros`. The `Makefile` integrates the use of (`adstex`](https://pypi.org/project/adstex/) by Y.Y. Mao, which makes adding references to a latex document easier, by accessing [NASA ADS](https://ui.adsabs.harvard.edu). Since this repository does not add to adstex's capabilities, citations in the latex documents must follow the rules/conventions set up in adstex.
 
 This means, that at worst, articles in ADS should be cited by their ads bibcode. At best, you may be able to get away by using the first author and year convention, as described in adstex.
-### version : 0.0.4
+### version : 0.0.5
 
 ## Installation
 - While this project can be cloned and renamed, one can also create a new github repository by using this as a template repository. 
