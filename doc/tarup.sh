@@ -9,5 +9,5 @@ for f in `ls submission/*.tex`; do
 	sed -i '' "s/macros\///g" "$f"
 	sed -i '' "s/tables\///g" "$f"
 done
-tar --exclude='props.tex' --exclude='submission/results.tex' --exclude='submission/our_results.tex' -czvf submission.tar.gz submission
+tar -czvf submission.tar.gz submission
 #paper.tex paper.bbl mnras.bst mnras.cls latex/*.tex figs/*.pdf figs/*.tex latex/tables/*.tex bib/paper.bib latex/macros/*.tex
